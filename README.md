@@ -39,19 +39,19 @@ That's a full ML pipeline. In 7 lines.
 
 ## Install
 
+**Download the python programm**
+```bash
+# Linux / Arch
+curl -Lo arc.py https://github.com/matteosoverini12-sketch/arc/releases/latest/download/arc.py
+python3 arc.py
+```
+
 **Download the binary (recommended)**
 ```bash
 # Linux / Arch
 curl -Lo arc https://github.com/matteosoverini12-sketch/arc/releases/latest/download/arc
 chmod +x arc
 sudo mv arc /usr/local/bin/arc
-```
-
-**Or run from source**
-```bash
-git clone https://github.com/matteosoverini12-sketch/arc
-cd arc
-python arc.py yourfile.arc
 ```
 
 Arc has **zero Python dependencies** — the transpiler is pure stdlib. Dependencies like numpy and pandas are installed automatically on first run if missing.
