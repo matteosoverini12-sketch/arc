@@ -42,14 +42,14 @@ That's a full ML pipeline. In 7 lines.
 **Download the binary (recommended)**
 ```bash
 # Linux / Arch
-curl -Lo arc https://github.com/yourname/arc-lang/releases/latest/download/arc-linux
+curl -Lo arc https://github.com/matteosoverini12-sketch/arc/linux
 chmod +x arc
 sudo mv arc /usr/local/bin/arc
 ```
 
 **Or run from source**
 ```bash
-git clone https://github.com/yourname/arc-lang
+git clone https://github.com/matteosoverini12-sketch/arc/
 cd arc-lang
 python arc.py yourfile.arc
 ```
